@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styless.css">
+  <title>Sanujaya Weerasingha - Portfolio</title>
+</head>
+<body>
+  <nav>
+    <div class="left">
+      <a href="/">SANUJAYA WEERASINGHA</a>
+      <p>Software Engineer | Undergraduate in IT & Management at University of Moratuwa | Bridging technology and business</p>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/Sanujaya" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i> 
+        <span>Github</span>
+      </a>
+
+      <a href="https://linkedin.com/in/sanujaya" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i> 
+        <span>LinkedIn</span>
+      </a>
+
+      <a href="mailto:Sanujaya@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-envelope"></i> 
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="me">
+      <div class="text">
+        <h2>Hi, I'm Sanujaya</h2>
+        <p>I am an undergraduate at the University of Moratuwa, currently pursuing a degree in Information Technology and Management. As an aspiring Software Engineer and IT professional, I am passionate about combining technology and management to create practical solutions for real-world problems. This portfolio serves as a demonstration assignment, showcasing my skills, projects, and commitment to continuous learning while highlighting my unique perspective of bridging the gap between business and technology.</p>
+        <div class="links">
+          <a href="#about">
+            <i class="fa-regular fa-address-card"></i>
+            <span>About Me</span>
+          </a>
+
+          <a href="#blog">
+            <i class="fa-solid fa-blog"></i>
+            <span>My Blog</span>
+          </a>
+
+          <a href="#contact">
+            <i class="fa-solid fa-address-book"></i>
+            <span>Contact Me</span>
+          </a>
+        </div>
+      </div>
+      <div class="headshot">
+        <img src="propic.jpg" alt="Sanujaya Weerasingha">
+      </div>
+    </section>
+
+    <section id="about" class="aboutme">
+      <h2>About Me</h2>
+      <div class="text">
+        <p>I specialize in crafting clean, scalable, and user-focused software solutions by blending strong front-end design with efficient back-end logic. My skills span across web development, database design, and software architecture, with a focus on delivering applications that are both functional and visually engaging. I enjoy exploring emerging technologies, from AI-driven applications to data-driven decision systems, and I constantly challenge myself to turn innovative ideas into working software.</p>
+        <p>Some of my standout projects include building a personalized portfolio platform, experimenting with algorithm-based recommendation systems, and developing interactive dashboards that transform raw data into meaningful insights. These experiences showcase my ability to think beyond code — designing software that is not only technically strong but also impactful in real-world contexts.</p>
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+            <img src="html.png" alt="HTML5">
+         
+          </a>
+        </div>
+
+        <div class="cell">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+            <img src="css2.png" alt="CSS3">
+            
+          </a>
+        </div>
+
+        <div class="cell">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+            <img src="js.png" alt="JavaScript">
+           
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="myblog">
+      <h2>My Blog</h2>
+      <div class="group">
+        <div class="blogdetails">
+          <img src="toktik.png" alt="Blog Post">
+        </div>
+        <div class="text">
+          <h3>When TikTok Knows You Better Than Your Boss</h3>
+          <p>Exploring how recommendation algorithms understand user preferences better than many traditional management approaches, and what businesses can learn from these systems about understanding their employees and customers.</p>
+          <a href="https://medium.com/@sanurox54/when-tiktok-knows-you-better-than-your-boss-e0d3792323ce" target="_blank" class="medium-button">
+            Read My Blog
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <div class="text">
+        <p>I'm always interested in new opportunities, collaborations, or just a friendly chat about technology and innovation. Feel free to reach out to me using the form below or through any of my social media profiles.</p>
+      </div>
+      
+      <form id="contactForm">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p id="formMessage" class="hidden"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Sanujaya Weerasingha. All Rights Reserved.</p>
+  </footer>
+
+  <script src="scriptt.js"></script>
+</body>
+</html>
